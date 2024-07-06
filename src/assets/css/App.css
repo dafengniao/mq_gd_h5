@@ -1,0 +1,1217 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 微软雅黑, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+.yunlian-page-body {
+  background-color: #f0e9d5;
+  margin: 0;
+  padding: 3.5% 3%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper {
+  background: url(//home-cdn.miquan.ink/images/yunlian/bg.jpg);
+  padding: 1.5%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .top {
+  display: flex;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .content {
+  background: url(//home-cdn.miquan.ink/images/yunlian/center.png) repeat-y;
+  background-size: 100%;
+  padding: 2% 8% 13.5%;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .content
+  .swiper-container
+  .swiper-slide
+  img {
+  width: 100%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .logo {
+  padding: 10% 0;
+  text-align: center;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .logo img {
+  max-width: 56%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .outer-code-img {
+  align-items: center;
+  border: 3px solid #f2ba79;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0.5%;
+  width: 18%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .money-single .info {
+  padding: 0 4%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .money-single .outer-code {
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  line-height: 2rem;
+  padding-bottom: 6%;
+  padding-top: 50px;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .money-single .info-item {
+  align-items: center;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  padding: 8px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item
+  div:first-child {
+  flex-shrink: 0;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item
+  div:last-child {
+  color: #d17d22;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .money-multi {
+  margin-top: 48px;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .money-multi .money-img-and-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .outer-code-img {
+  margin-right: 32px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .money-basic {
+  color: #444;
+  flex: 1 1;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .money-basic
+  .money-basic-line
+  .level-grade-right {
+  margin-left: 32px;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .money-multi .multi-property-ct {
+  font-size: 2rem;
+  line-height: 3.6rem;
+  margin-top: 32px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item {
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+  margin-bottom: 16px;
+  padding: 32px 16px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .label {
+  margin-right: 2%;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .value {
+  color: #a84f0e;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .right {
+  margin-left: 5%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .source-info {
+  margin-top: 32px;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .source-info .source-logo {
+  margin-bottom: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .source-info .source-money {
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 8px 0;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .l1-category {
+  color: #b18770;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  padding: 0 2%;
+  text-align: center;
+  width: 10%;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info {
+  align-items: flex-start;
+  border-left: 2px dashed #e2e2e2;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 0 8px 8px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .source {
+  color: #868686;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 32px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .name {
+  color: #6e3b12;
+  font-size: 2.4rem;
+  font-weight: 700;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+  margin-top: 48px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .diameter,
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .level,
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .price {
+  background-color: #f1e2cd;
+  border-radius: 24px;
+  color: #af836b;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 8px;
+  padding: 8px 32px;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images {
+  border-top: 2px solid #e2e2e2;
+  padding: 6% 0;
+  text-align: center;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-a,
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-b {
+  width: 40%;
+}
+
+.yunlian-page-body
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-a {
+  margin-right: 2%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .tip {
+  color: #b72700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  padding-top: 10%;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .tip-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.yunlian-page-body .yunlian-page-body-wrapper .tip-content {
+  padding: 10px 30px 0;
+}
+
+.yunlian-page-body .footer {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.yunlian-page-body .footer img {
+  width: 35%;
+}
+
+.yunlian-page-body #fullImg {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  min-height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.yunlian-page-body-huaquan {
+  background-color: #fff;
+  margin: 0;
+  padding: 3.5% 3%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper {
+  padding: 1.5%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .top {
+  display: flex;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .content {
+  background: url(//huaquan-home-cdn.hqjd688.com/images/yunlian/center.png)
+    repeat-y;
+  background-size: 100%;
+  padding: 2% 8% 13.5%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .content
+  .swiper-container
+  .swiper-slide
+  img {
+  width: 100%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .logo {
+  padding: 6% 0;
+  text-align: center;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .logo img {
+  max-width: 56%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .outer-code-img {
+  align-items: center;
+  border: 3px solid #f2ba79;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0.5%;
+  width: 18%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .money-single .info {
+  padding: 0 4%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .outer-code {
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  line-height: 2rem;
+  padding-bottom: 6%;
+  padding-top: 50px;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .money-single .info-item {
+  align-items: center;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  padding: 8px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item
+  div:first-child {
+  flex-shrink: 0;
+  text-align: right;
+  width: 32%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item
+  div:last-child {
+  color: #d17d22;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item.top32 {
+  margin-top: 32px;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .money-multi {
+  margin-top: 48px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .outer-code-img {
+  margin-right: 32px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .money-basic {
+  color: #444;
+  flex: 1 1;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .money-basic
+  .money-basic-line
+  .level-grade-right {
+  margin-left: 32px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct {
+  font-size: 2rem;
+  line-height: 3.6rem;
+  margin-top: 32px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item {
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+  margin-bottom: 16px;
+  padding: 32px 16px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .label {
+  margin-right: 2%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .value {
+  color: #a84f0e;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .right {
+  margin-left: 5%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .source-info {
+  margin-top: 32px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-logo {
+  margin-bottom: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money {
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 8px 0;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .l1-category {
+  color: #b18770;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  padding: 0 2%;
+  text-align: center;
+  width: 10%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info {
+  align-items: flex-start;
+  border-left: 2px dashed #e2e2e2;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 0 8px 8px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .source {
+  color: #868686;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 32px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .name {
+  color: #6e3b12;
+  font-size: 2.4rem;
+  font-weight: 700;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+  margin-top: 48px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .diameter,
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .level,
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .price {
+  background-color: #f1e2cd;
+  border-radius: 24px;
+  color: #af836b;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 8px;
+  padding: 8px 32px;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images {
+  border-top: 2px solid #e2e2e2;
+  padding: 6% 0;
+  text-align: center;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-a,
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-b {
+  width: 40%;
+}
+
+.yunlian-page-body-huaquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-a {
+  margin-right: 2%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .tip {
+  color: #b72700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  padding-top: 10%;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .tip-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.yunlian-page-body-huaquan .yunlian-page-body-wrapper .tip-content {
+  padding: 10px 30px 0;
+}
+
+.yunlian-page-body-huaquan .footer {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.yunlian-page-body-huaquan .footer img {
+  width: 35%;
+}
+
+.yunlian-page-body-huaquan #fullImg {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  min-height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.yunlian-page-body-longquan {
+  --padding-left-right: 4%;
+  background-color: #fff;
+  margin: 0;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .top {
+  background-image: linear-gradient(#ccd4dc, transparent);
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .top .logo {
+  padding: 6% 0 8%;
+  text-align: center;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .top .logo img {
+  width: 56%;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .top .swiper-container {
+  margin: 2% auto 0;
+  width: 72%;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .top
+  .swiper-container
+  .swiper-slide
+  img {
+  width: 100%;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .center {
+  border: 1px solid silver;
+  margin: 1%;
+  padding: 2% 4%;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .outer-code-img {
+  align-items: center;
+  border: 3px solid #f2ba79;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0.5%;
+  width: 18%;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .money-single .info {
+  padding: 0 4%;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .outer-code {
+  align-items: center;
+  border-bottom: 1px solid silver;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  line-height: 2rem;
+  margin-bottom: 8%;
+  padding-bottom: 6%;
+  padding-left: var(--padding-left-right);
+  padding-right: var(--padding-left-right);
+  padding-top: 50px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item {
+  align-items: center;
+  color: #afafaf;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  padding: 8px;
+  padding-left: var(--padding-left-right);
+  padding-right: var(--padding-left-right);
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item
+  div:first-child {
+  flex-shrink: 0;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-single
+  .info-item
+  div:last-child {
+  color: #000;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .money-multi {
+  margin-top: 48px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .outer-code-img {
+  margin-right: 32px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .money-basic {
+  color: #444;
+  flex: 1 1;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .money-img-and-info
+  .money-basic
+  .money-basic-line
+  .level-grade-right {
+  margin-left: 32px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct {
+  font-size: 2rem;
+  line-height: 3.6rem;
+  margin-top: 32px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item {
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+  margin-bottom: 16px;
+  padding: 32px 16px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .label {
+  margin-right: 2%;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .value {
+  color: #a84f0e;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .money-multi
+  .multi-property-ct
+  .multi-property-item
+  .multi-property-line
+  .right {
+  margin-left: 5%;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .source-info {
+  margin-top: 32px;
+  padding-left: var(--padding-left-right);
+  padding-right: var(--padding-left-right);
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-logo {
+  margin-bottom: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money {
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 8px 0;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .l1-category {
+  color: #b18770;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  padding: 0 2%;
+  text-align: center;
+  width: 10%;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info {
+  align-items: flex-start;
+  border-left: 2px dashed #e2e2e2;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 0 8px 8px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .source {
+  color: #868686;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 32px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .name {
+  color: #6e3b12;
+  font-size: 2.4rem;
+  font-weight: 700;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+  margin-top: 48px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .diameter,
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .level,
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .basic-info
+  .name-info
+  .label
+  .price {
+  background-color: #f1e2cd;
+  border-radius: 24px;
+  color: #af836b;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 8px;
+  padding: 8px 32px;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images {
+  border-top: 2px solid #e2e2e2;
+  padding: 6% 0;
+  text-align: center;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-a,
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-b {
+  width: 40%;
+}
+
+.yunlian-page-body-longquan
+  .yunlian-page-body-wrapper
+  .source-info
+  .source-money
+  .images
+  .picture-a {
+  margin-right: 2%;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .tip {
+  border-top: 1px solid silver;
+  color: #b72700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  margin-top: 10%;
+  padding-left: var(--padding-left-right);
+  padding-right: var(--padding-left-right);
+  padding-top: 4%;
+  text-align: left;
+}
+
+.yunlian-page-body-longquan .yunlian-page-body-wrapper .tip-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-bottom: 1%;
+}
+
+.yunlian-page-body-longquan .footer {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #212121;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.8rem;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.yunlian-page-body-longquan #fullImg {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  min-height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.swiper-img {
+  width: 100%;
+}
