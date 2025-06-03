@@ -13,7 +13,7 @@ function App() {
   const [info, setInfo] = useState({});
 
   useEffect(() => {
-    axios.get(`/api/yunlian/${id}`).then((res) => {
+    axios.get(`https://www.miquan.ink/api/yunlian/${id}`).then((res) => {
       setInfo(res.data.object);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -160,9 +160,6 @@ function App() {
             </div>
             <div className="tip-footer">
               <div className="footer-title">北京觅泉科技有限公司</div>
-              <div className="footer-en">
-                Beijing Miquan Technology Co., Ltd
-              </div>
             </div>
           </div>
         </div>

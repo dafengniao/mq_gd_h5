@@ -154,6 +154,7 @@ body {
   margin: 5% 4% 0;
   line-height: 50px;
   overflow: hidden;
+  text-indent: 54px;
 }
 .tip-footer {
   margin-top: 6%;
@@ -163,7 +164,7 @@ body {
 .footer-title {
   font-family: Microsoft YaHei;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 36px;
   color: #1a1a1a;
 }
 .footer-en {
@@ -174,7 +175,7 @@ body {
   margin-top: 2%;
 }
 .cloud-logo {
-  padding: 4% 0 13%;
+  padding: 0 0 13%;
   width: 53%;
   text-align: center;
   margin: 0 auto;
