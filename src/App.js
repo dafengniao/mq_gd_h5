@@ -131,10 +131,10 @@ function App() {
             </div>
           </div>
         )}
-        <div className="cloud-info-item">
+        {!info.modernCurrencyName && <div className="cloud-info-item">
           <div>样本来源</div>
           <div>来源于觅泉版别速查</div>
-        </div>
+        </div>}
         {info.comment && (
           <div className="cloud-info-item">
             <div>说明</div>
