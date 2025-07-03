@@ -88,6 +88,7 @@ body {
   width: 93.6%;
   border: 2px solid #e6a853;
   margin: 3.2%;
+  margin-top: 8%;
   background: rgba(255, 255, 255, 0.32);
 }
 
@@ -135,7 +136,7 @@ body {
   background: #fff7ee;
   border-radius: 9px;
   border: 1px solid #e6c597;
-  margin: 16% auto 0;
+  margin: 22% auto 16%;
   padding-bottom: 5%;
 }
 .tip-title {

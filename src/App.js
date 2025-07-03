@@ -150,9 +150,6 @@ function App() {
       </div>
       <div className="cloud-msg">
         <div className="ps-bg">
-          <div className="cloud-info">
-            以上信息由<span>{info.company}</span>提供
-          </div>
           <div className="cloud-tip">
             <div className="tip-title">特别提示</div>
             <div className="tip-desc">
