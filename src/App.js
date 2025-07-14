@@ -4,6 +4,8 @@ import "./assets/css/App.css";
 import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, A11y } from "swiper/modules";
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 import "swiper/css/autoplay";
 
 import "swiper/css";
@@ -21,7 +23,7 @@ function App() {
   return (
     <div className="custom-pj">
       <div className="cloud-header">
-        <div class="ps-bg">
+        <div className="ps-bg">
           <div className="logo">
             <img
               src="https://miquan-money-cdn.miquan.ink/static/wechat/mqjd/quanlian/logo.png"
@@ -39,14 +41,18 @@ function App() {
       </div>
       {/* 轮播图 */}
       <div className="cloud-swiper">
+      <PhotoProvider>
         <Swiper modules={[Autoplay, A11y]} loop={true} autoplay={true}>
           {info.images &&
             JSON.parse(info.images).map((item) => (
               <SwiperSlide key={item.name}>
-                <img className="swiper-img" src={item.url} alt={item.name} />
+                  <PhotoView key={item.nam} src={item.url}>
+                    <img className="swiper-img" src={item.url} alt={item.name} />
+                  </PhotoView>
               </SwiperSlide>
             ))}
         </Swiper>
+        </PhotoProvider>
       </div>
       <div className="cloud-content">
         {info.particularYear && (
