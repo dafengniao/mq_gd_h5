@@ -184,3 +184,8 @@ body {
 .cloud-logo img {
   width: 100%;
 }
+
+.no-icon {
+  width: 75%;
+  margin: 8% 12.5% 0;
+}
