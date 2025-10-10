@@ -14,14 +14,19 @@ import "swiper/css";
 function App() {
   const { id } = useParams();
   const [info, setInfo] = useState({});
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get(`https://www.miquan.ink/api/yunlian/${id}`).then((res) => {
-      setInfo(res.data.object);
-    });
+    setLoading(true);
+    axios
+      .get(`https://www.miquan.ink/api/yunlian/${id}`)
+      .then((res) => {
+        setInfo(res.data.object);
+      })
+      .finally(() => setLoading(false));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  return info?.name || info?.modernCurrencyName ? (
+  return loading ? null : info?.name || info?.modernCurrencyName ? (
     <div className="custom-pj">
       <div className="cloud-header">
         <div className="ps-bg">
