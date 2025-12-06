@@ -119,7 +119,8 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
+  line-height: 3rem;
 }
 .cloud-info {
   text-align: center;
