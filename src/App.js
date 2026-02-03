@@ -139,11 +139,18 @@ function App() {
             <div>{info.grade}</div>
           </div>
         )}
-        {info.diameter && (
+        {(info.diameter || info.thickness || info.weight) && (
           <div className="cloud-info-item">
             <div>数据</div>
             <div>
-              {info.diameter}*{info.thickness}mm{info.weight}克
+              {info.diameter && info.thickness
+                ? `${info.diameter}* ${info.thickness}mm`
+                : info.diameter
+                  ? `${info.diameter}mm`
+                  : info.thickness
+                    ? `${info.thickness}mm`
+                    : null}
+              {info.weight && `${info.weight}克`}
             </div>
           </div>
         )}
