@@ -7,8 +7,8 @@ import { Autoplay, A11y } from "swiper/modules";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import "swiper/css/autoplay";
-import imgs from "./assets/images/tooltip.jpg";
-
+import imgs from "./assets/images/tooltip.png";
+import star from "./assets/images/star.png";
 import "swiper/css";
 
 function App() {
@@ -194,7 +194,38 @@ function App() {
       </div>
     </div>
   ) : (
-    <img className="no-icon" src={imgs} alt="no" />
+    <div className="error-content">
+      <div className="header">
+        <img className="no-icon" src={imgs} alt="no" />
+        <div className="no-text">藏品数据暂未收录入库</div>
+      </div>
+      <div className="content">
+        <div className="err-desc">出现本提示分为两种常见情况：</div>
+        <div className="err-item">
+          <div className="err-title">1. 尚未录入：</div>
+          <div className="err-cont">
+            该评级币批次、封装档案还未同步至觅泉数据库，属于正常延迟；
+          </div>
+        </div>
+        <div className="err-item">
+          <div className="err-title">2. 数据失效：</div>
+          <div className="err-cont">
+            藏品存在拆装、改号、变造等异常，档案已标记屏蔽。
+          </div>
+        </div>
+      </div>
+      <div className="err-botm">
+        <div className="err-desc">您可以：</div>
+        <div className="tip-btn">
+          <img className="star" src={star} alt="star" />
+          <div className="tip-text">等待3~7个工作日再次扫码重试</div>
+        </div>
+        <div className="tip-btn">
+          <img className="star" src={star} alt="star" />
+          <div className="tip-text">联系藏品送评方/觅泉评级确认档案录入进度</div>
+        </div>
+      </div>
+    </div>
   );
 
   // <div className="yunlian-page-body">

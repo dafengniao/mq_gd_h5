@@ -187,6 +187,89 @@ body {
 }
 
 .no-icon {
-  width: 75%;
-  margin: 8% 12.5% 0;
+  width: 320px;
+}
+
+.no-icon {
+  width: 320px;
+  height: 200px;
+}
+.error-content .header {
+  padding: 80px 0 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header .no-text {
+  font-weight: 600;
+  font-size: 48px;
+  color: #7a3d00;
+  line-height: 67px;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.error-content .content {
+  margin: 0 48px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-top: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+}
+.err-desc {
+  font-weight: 400;
+  font-size: 28px;
+  color: #999999;
+  line-height: 40px;
+  text-align: justify;
+  font-style: normal;
+}
+.err-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 30px;
+}
+.err-title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #333333;
+  line-height: 40px;
+  text-align: left;
+  font-style: normal;
+}
+.err-cont {
+  flex: 1;
+  font-weight: 400;
+  font-size: 28px;
+  color: #333333;
+  line-height: 40px;
+  text-align: justify;
+  font-style: normal;
+}
+.err-botm {
+  padding-top: 30px;
+  margin: 0 48px;
+}
+
+.tip-btn {
+  display: flex;
+  margin-top: 30px;
+  background: #FFFBF5;
+  border-radius: 24px;
+  padding:24px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #F7E3C6;
+}
+.tip-btn .star {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+.tip-text {
+  flex: 1;
+  font-weight: 400;
+  font-size: 28px;
+  color: #E66100;
+  line-height: 40px;
 }
