@@ -103,6 +103,24 @@ function App() {
             <div>{info.fraction}</div>
           </div>
         )}
+        {info.distributionBureau && (
+          <div className="cloud-info-item">
+            <div>发行单位</div>
+            <div>{info.distributionBureau}</div>
+          </div>
+        )}
+        {info.materialName && (
+          <div className="cloud-info-item">
+            <div>材质</div>
+            <div>{info.materialName}</div>
+          </div>
+        )}
+        {info.encapsulationTime && (
+          <div className="cloud-info-item">
+            <div>封装时间</div>
+            <div>{info.encapsulationTime}</div>
+          </div>
+        )}
         {info.dynasty && (
           <div className="cloud-info-item">
             <div>朝代</div>
